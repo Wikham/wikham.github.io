@@ -1,14 +1,22 @@
 /* Gobal css sheet for whikham.github.io, made by @edazpotato */
 
+:root {
+  --bg-color: white;
+}
+
+html, body {
+  height: 100%;
+}
+
 a {
   color: #23a2fc;
   border-bottom: 1px dashed #23a2fc;
 }
 a:hover, a:focus {
   color: #23b7fc;
-  border-bottom: 1px dashed #23b7fc;
+  border-bottom: 1px dashed var(--bg-color);
 }
-A:active {
+a:active {
   color: #00d0ff;
-  border-bottom: 1px dashed #00d0ff;
+  border-bottom: 1px dashed var(--bg-color);
 }
