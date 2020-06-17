@@ -1,0 +1,23 @@
+/* css flexbox grid by @edazpotato */
+/* Licenced under the MIT licence */
+/* Please credit me! */
+/* Thanks for using this! <3 */
+
+
+/* core of the grid system */
+.row {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+/* centering */
+.center {
+  align-self: center;
+  justify-self: center;
+}
+.cent {
+  align-items: center;
+  justify-content: center;
+}
