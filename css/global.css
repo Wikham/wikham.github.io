@@ -8,15 +8,16 @@ html, body {
   height: 100%;
 }
 
-a {
+.link {
   color: #23a2fc;
   border-bottom: 1px dashed #23a2fc;
+  transition-duration: 1s;
 }
-a:hover, a:focus {
+.link:hover, .link:focus {
   color: #23b7fc;
   border-bottom: 1px dashed var(--bg-color);
 }
-a:active {
+.link:active {
   color: #00d0ff;
   border-bottom: 1px dashed var(--bg-color);
 }
