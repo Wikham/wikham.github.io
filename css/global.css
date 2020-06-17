@@ -1,12 +1,29 @@
 /* Gobal css sheet for whikham.github.io, made by @edazpotato */
 
 :root {
-  --bg-color: white;
+  --bg-color: #fafafa;
+  --text-color: #212121;
+  --light-text-color: #484848;
+  --dark-text-color: #000000;
 }
 
-html, body {
+body {
   height: 100%;
 }
+
+h1, h2, h3, h4, h5, h6, .title {
+  opacity: 87%;
+  color: var(--text-color);
+}
+p, span, div, .normal {
+  opacity: 60%;
+  color: var(--text-color);
+}
+.disabled {
+  opacity: 38%;
+  color: var(--text-color);
+}
+.light
 
 .link {
   color: #23a2fc;
