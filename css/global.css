@@ -1,4 +1,10 @@
 /* Gobal css sheet for whikham.github.io, made by @edazpotato */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+ 
 :root {
   --bg-color: #ffffff75;
   --font-color: #121212;
