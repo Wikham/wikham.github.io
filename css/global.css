@@ -46,7 +46,7 @@ a {
 }
 .top {
   background-color: var(--font-color);
-  height: 10vh;
+  /*height: 10vh;*/
 }
 .top + h1 {
   background-color: var(--font-color);
