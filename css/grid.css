@@ -3,6 +3,10 @@
 /* Please credit me! */
 /* Thanks for using this! <3 */
 
+/* setup */
+body, .wrapper {
+  height: 100%;
+}
 
 /* core of the grid system */
 .row {
