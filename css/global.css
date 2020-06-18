@@ -44,3 +44,11 @@ a {
   color: #00d0ff;
   border-bottom: 1% solid #00d0ff;
 }
+.top {
+  color: var(--bg-color);
+  background-color: var(--font-color);
+  height: 10vh;
+}
+.topimg {
+  background-color: var(--font-color);
+}
