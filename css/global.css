@@ -105,14 +105,14 @@ a {
 }
 .link {
   color: #23a2fc;
-  border-bottom: 0px;
+  border-bottom: 1% solid var(--bg-color);
   transition-duration: 1s;
 }
 .link:hover, .link:focus {
   color: #23b7fc;
-  border-bottom: 1% solid var(--bg-color);
+  border-bottom: 1% solid #23b7fc;
 }
 .link:active {
   color: #00d0ff;
-  border-bottom: 1% solid var(--bg-color);
+  border-bottom: 1% solid #00d0ff;
 }
