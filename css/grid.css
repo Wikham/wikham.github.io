@@ -24,6 +24,7 @@ body, .wrapper {
 .cent {
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .cent-h {
   justify-content: center;
