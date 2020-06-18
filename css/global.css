@@ -88,12 +88,12 @@ body {
 input[type="checkbox"].darkmoder {
   -webkit-appearance: none;
   outline: 0;
-  position: absolute;
+  /*position: absolute;*/
   z-index: 2;
-  top: 10px;
+  /*top: 10px;
   right: 10px;
   width: 20px;
-  height: 20px;
+  height: 20px;*/
   border-radius: 50%;
   background-image: var(--gradient-style);
   box-shadow: 0 0 14px var(--gradient-size) var(--gradient-shadow);
