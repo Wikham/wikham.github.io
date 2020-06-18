@@ -45,9 +45,12 @@ a {
   border-bottom: 1% solid #00d0ff;
 }
 .top {
-  color: var(--bg-color);
   background-color: var(--font-color);
   height: 10vh;
+}
+.top + h1 {
+  background-color: var(--font-color);
+  color: var(--bg-color);
 }
 .topimg {
   background-color: var(--font-color);
