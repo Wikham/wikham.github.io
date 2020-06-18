@@ -7,7 +7,7 @@
       h1{
         font-family: arial;
         color: blue;
-        font-size: 50px;
+        /*font-size: 50px;*/
       }
       
       h2{
@@ -37,19 +37,24 @@
         color: black;
         font-size:35px;
       }
+      .top {
+        color: var(--bg-color);
+        background-color: var(--font-color);
+        height: 10vh;
+      }
     </style>
   </head>
   <body>
     <div class="wrapper row vert cent-v">
       <header class="header col row vert">
-        <div class="col">
+        <div class="col top">
           <img src="/assets/images/NJP-Logo.png"/>
           <h1>Welcome to the official website of Ninja-juce productions</h1>
         </div>
-        <nav class="nav col">
-          <a href="about.html" class="link">About us</a>
-          <a href="team.html" class="link">Our team</a>
-          <a href="films.html" class="link">Comming soon</a>
+        <nav class="nav col cent">
+          <a href="about.html" class="link">About us</a> | 
+          <a href="team.html" class="link">Our team</a> | 
+          <a href="films.html" class="link">Comming soon</a> | 
           <a href="merch.html" class="link">Merch</a>
         </nav>
       </header>
