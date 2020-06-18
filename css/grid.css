@@ -21,3 +21,11 @@
   align-items: center;
   justify-content: center;
 }
+
+/* change directions */
+.vert {
+  flex-direction: column;
+}
+.horis {
+  flex-direction: row;
+}
