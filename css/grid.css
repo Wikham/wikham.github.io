@@ -25,6 +25,12 @@ body, .wrapper {
   align-items: center;
   justify-content: center;
 }
+.cent-h {
+  justify-content: center;
+}
+.cent-v {
+  align-items: center;
+}
 
 /* change directions */
 .vert {
