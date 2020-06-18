@@ -100,16 +100,19 @@ input[type="checkbox"].darkmoder {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
 .link {
   color: #23a2fc;
-  border-bottom: 1px dashed #23a2fc;
+  border-bottom: 0px;
   transition-duration: 1s;
 }
 .link:hover, .link:focus {
   color: #23b7fc;
-  border-bottom: 1px dashed var(--bg-color);
+  border-bottom: 1% solid var(--bg-color);
 }
 .link:active {
   color: #00d0ff;
-  border-bottom: 1px dashed var(--bg-color);
+  border-bottom: 1% solid var(--bg-color);
 }
