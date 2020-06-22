@@ -33,7 +33,7 @@ a {
 }
 .link {
   color: #23a2fc;
-  border-bottom: 1% solid var(--bg-color);
+  border-bottom: 1% solid #0f9bdb;
   transition-duration: 1s;
 }
 .link:hover, .link:focus {
