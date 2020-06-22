@@ -8,6 +8,10 @@ body, .wrapper {
   height: 100%;
 }
 
+.wrapper {
+  align-content: space-between;
+}
+
 /* core of the grid system */
 .row {
   display: flex;
