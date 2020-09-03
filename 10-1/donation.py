@@ -1,1 +1,26 @@
-
+<!Doctype html>
+<html>
+<style>
+<body>
+h1
+  {
+   font-family: helvetica;
+   font-size: 50px;
+   color: black;
+  }
+p
+ {
+  font-family: times new roman;
+   font-size: 35px;
+   color: black;
+  }
+  <h1> <strong>Hi I'm William. CEO and founder of Ninja juce productions.</strong></h1>
+<p> I hate ads. I find them really annoying. I have instead decided
+    to not have ads cover the content. So I put ads on the side of
+    my website or at the bottom. If you would like to get rid of 
+    ads I would really appreciate your support. If you donate to me
+    either on my patreon or on paypal. For paypal you don't have to pay 
+  anymore than $1 if you don't want to.</p>
+  </style>
+  </body>
+</html>
